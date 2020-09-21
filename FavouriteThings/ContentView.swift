@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var showGreeting = true
+    @State private var ShowMore = true
     @State private var showimg = false
     
     
@@ -19,18 +19,18 @@ struct ContentView: View {
                     NavigationLink(destination: AllAboutMe()){
                         Text("About Me")
                     }
-                    if showimg{
+                    if (showimg && ShowMore){
                         Image("Rename").resizable().frame(width: 30, height: 30)
                     }
                 }
                 
                 HStack{
-                    Toggle(isOn: $showGreeting) {
+                    Toggle(isOn: $ShowMore) {
                         Text("Show More Stuff")
                     }
                 }
                 
-                if showGreeting {
+                if ShowMore {
                     HStack{
                         Toggle(isOn: $showimg) {
                             Text("Show Image")
@@ -55,7 +55,6 @@ struct ContentView: View {
                         }
                     }
                 }
-                
             }.navigationBarTitle("Main Page")
         }
     }
