@@ -12,14 +12,15 @@ struct CoolStuff: View {
         ScrollView{
             VStack{
                 Text("Cool Stuff Page")
-                Text("Hi Welcome to the cool stuff page where there is nothing to see.")
+                    .font(.title).bold()
+                Text("Welcome to the Cool Stuff Page").bold()
                 
-                Text("This is a picture of the colour white. ")
-              
-                Image("white").resizable().frame(width:500, height:500 )
+                Text("\n\n\n\n  You can check out my github page. Most of the stuff are programmed in python. ")
+                Text("  Please note that I write really messy code in python if you visit my github. Here is the link to my github page. ")
                 
-            }.padding(10)
-        }
+                Link("My Github Page", destination: URL(string: "https://github.com/Mr-Anyone")!)
+            }
+        }.padding(10)
     }
     
 }
