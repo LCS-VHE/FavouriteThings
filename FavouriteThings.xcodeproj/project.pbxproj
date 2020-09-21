@@ -13,6 +13,9 @@
 		E545B0BE25190501001B9115 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E545B0BD25190501001B9115 /* Preview Assets.xcassets */; };
 		E545B0C925190502001B9115 /* FavouriteThingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E545B0C825190502001B9115 /* FavouriteThingsTests.swift */; };
 		E545B0D425190502001B9115 /* FavouriteThingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E545B0D325190502001B9115 /* FavouriteThingsUITests.swift */; };
+		E59F1C5B251905EA008E25FD /* CoolStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59F1C5A251905EA008E25FD /* CoolStuff.swift */; };
+		E59F1C60251905FE008E25FD /* AboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59F1C5F251905FE008E25FD /* AboutMe.swift */; };
+		E59F1C652519062B008E25FD /* MyFavouriteThings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59F1C642519062B008E25FD /* MyFavouriteThings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		E545B0CF25190502001B9115 /* FavouriteThingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FavouriteThingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E545B0D325190502001B9115 /* FavouriteThingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsUITests.swift; sourceTree = "<group>"; };
 		E545B0D525190502001B9115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E59F1C5A251905EA008E25FD /* CoolStuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolStuff.swift; sourceTree = "<group>"; };
+		E59F1C5F251905FE008E25FD /* AboutMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMe.swift; sourceTree = "<group>"; };
+		E59F1C642519062B008E25FD /* MyFavouriteThings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavouriteThings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				E545B0BA25190501001B9115 /* Assets.xcassets */,
 				E545B0BF25190501001B9115 /* Info.plist */,
 				E545B0BC25190501001B9115 /* Preview Content */,
+				E59F1C5A251905EA008E25FD /* CoolStuff.swift */,
+				E59F1C5F251905FE008E25FD /* AboutMe.swift */,
+				E59F1C642519062B008E25FD /* MyFavouriteThings.swift */,
 			);
 			path = FavouriteThings;
 			sourceTree = "<group>";
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E59F1C652519062B008E25FD /* MyFavouriteThings.swift in Sources */,
 				E545B0B9251904FD001B9115 /* ContentView.swift in Sources */,
+				E59F1C60251905FE008E25FD /* AboutMe.swift in Sources */,
+				E59F1C5B251905EA008E25FD /* CoolStuff.swift in Sources */,
 				E545B0B7251904FD001B9115 /* FavouriteThingsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
