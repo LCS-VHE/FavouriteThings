@@ -51,7 +51,7 @@ struct ContentView: View {
                             Text("Cool Stuff")
                         }
                         if showimg{
-                            Image("Blue")
+                            Image("Cool Stuff").resizable().frame(width:30, height:30)
                         }
                     }
                 }
