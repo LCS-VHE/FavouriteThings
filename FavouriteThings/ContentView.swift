@@ -30,25 +30,29 @@ struct ContentView: View {
                     }
                 }
                 
-                HStack{
-                    Toggle(isOn: $showimg) {
-                        Text("Show Image")
-                    }
-                }
-                
-                
                 if showGreeting {
+                    HStack{
+                        Toggle(isOn: $showimg) {
+                            Text("Show Image")
+                        }
+                    }
+                    
                     HStack{
                         NavigationLink(destination: MyFavoriteThingsView()){
                             Text("What I like")
                         }
+                        
                         if showimg{
-                                Image("")
+                            Image("Pc").resizable().frame(width:30, height:30)
                         }
                     }
-                   
-                    NavigationLink(destination: CoolStuff()){
-                        Text("Cool Stuff")
+                    HStack{
+                        NavigationLink(destination: CoolStuff()){
+                            Text("Cool Stuff")
+                        }
+                        if showimg{
+                            Image("Blue")
+                        }
                     }
                 }
                 

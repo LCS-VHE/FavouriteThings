@@ -14,11 +14,11 @@ struct MyFavoriteThingsView: View {
             VStack{
                 Group{
                     
-                    Image("Favorite Thing").resizable().frame(width: 300, height: 300)
+                    Image("Pc").resizable().frame(width: 300, height: 300)
                     
                     Text("My favoirte thing is called PC. It is really cool, I can play a lot of games with it. ")
                     Text("I can play games such as PUBG, overwatch, the forest on my computer. It's a great way to waste your time with. ")
-                    Image("PUBG").resizable().frame(width:300, height:300)
+                    Image("Pubg").resizable().frame(width:300, height:300)
                     Text("The cool thing is that I build my own PC. It sound really hard, but it's really simple. :) ")
                     
                     Image("Build").resizable().frame(width: 300, height: 300)
